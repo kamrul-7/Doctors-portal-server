@@ -34,7 +34,6 @@ function verifyJWT(req, res, next) {
 }
 
 
-
 async function run() {
     try {
         const appointmentOptionCollection = client.db('doctorsportal').collection('appointmentOptions');
